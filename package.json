@@ -1,23 +1,26 @@
 {
-  "name": "maratonadev",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucasbarroso23/Doe-Rocketseat-maratonaDev.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lucasbarroso23/Doe-Rocketseat-maratonaDev/issues"
-  },
-  "homepage": "https://github.com/lucasbarroso23/Doe-Rocketseat-maratonaDev#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "maratonadev",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lucasbarroso23/Doe-Rocketseat-maratonaDev.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lucasbarroso23/Doe-Rocketseat-maratonaDev/issues"
+    },
+    "homepage": "https://github.com/lucasbarroso23/Doe-Rocketseat-maratonaDev#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.4",
+        "nunjucks": "^3.2.2",
+        "pg": "^8.3.0"
+    }
 }
